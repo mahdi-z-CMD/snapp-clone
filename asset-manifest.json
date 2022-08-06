@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/snapp-clone/static/css/main.72b0e215.css",
+    "main.js": "/snapp-clone/static/js/main.eb64258c.js",
+    "static/js/787.839dcece.chunk.js": "/snapp-clone/static/js/787.839dcece.chunk.js",
+    "static/media/FontsFree-Net-ir_sans.ttf": "/snapp-clone/static/media/FontsFree-Net-ir_sans.b405362106aecf6bb79b.ttf",
+    "static/media/snappTextLogo.svg": "/snapp-clone/static/media/snappTextLogo.1398930e459c4472855e3951897dd563.svg",
+    "index.html": "/snapp-clone/index.html",
+    "main.72b0e215.css.map": "/snapp-clone/static/css/main.72b0e215.css.map",
+    "main.eb64258c.js.map": "/snapp-clone/static/js/main.eb64258c.js.map",
+    "787.839dcece.chunk.js.map": "/snapp-clone/static/js/787.839dcece.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72b0e215.css",
+    "static/js/main.eb64258c.js"
+  ]
+}
