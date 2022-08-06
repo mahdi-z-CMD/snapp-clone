@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "iransans";
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+
+}
+.intor img{
+  width: 100% !important;
+  min-width: 100% !important;
+  height: 100%;
+}
+.login{
+  padding: 20px;
+  width: 100%;
+  background-color: #21aa58;
+  color: white;
+  text-align: right;
+  margin-right: auto;
+  margin-left: auto;
+}
+.login h1{
+  font-size: 210%;
+}
+.login p{
+  margin-top: 30px;
+  font-size: 110%;
+}
+.input-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+.input-btn input[type=text]{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: right;
+}
+.input-btn input[type=text]:focus{
+  border: transparent;
+  outline-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+}
+.input-btn input[type=submit]{
+  background-color: white;
+  color: #15b254;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.input-btn input[type=submit]:hover{
+  transition: all .4s ease-in-out;
+  background-color: #15b254;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.web-btn{
+  display: flex;
+  margin-top: 30px;
+  justify-content: flex-end;
+  margin-right: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.web-btn input{
+  background-color: transparent;
+  border: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  padding-right: 15px;
+  transition: all 0.2s ease-in-out;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+.web-btn input:hover{
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.download-icon{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.download-icon img{
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+.more{
+  width: 100%;
+  height: 120vh;
+  margin-top: 100px;
+}
+.more h1{
+  display: flex;
+  justify-content: center;
+  color: #404040;
+  font-weight: bold;
+  letter-spacing: -.1px;
+}
+.box img{
+  width: 60px;
+  height: 60px;
+}
+.allbox{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.box{
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.texts{
+  margin-top: 5px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.texts h2{
+  font-size: 100%;
+  color: rgba(0, 0, 0, 0.8);
+}
+.texts h3{
+  font-size: 70%;
+  color: #a6a6a6;
+}
+.ghaza-img{
+  display: flex;
+  width: 100%;
+  height: 45vh;
+  justify-content: center;
+  margin-top: 100px;
+}
+.ghaza-img img{
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+}
+.super-snap{
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  margin-top: 50px;
+}
+.super-text{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  align-items: flex-end;
+  padding-right: 35px;
+}
+.super-text h1{
+  color: #404040;
+  font-size: 120%;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.super-text p{
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: right;
+  font-size: 80%;
+  width: 70%;
+  line-height: 25px;
+}
+.super-snap img{
+  width: 50%;
+  height: 100%;
+}
+.kos{
+  width: 100%;
+  height: 100vh;
 }
