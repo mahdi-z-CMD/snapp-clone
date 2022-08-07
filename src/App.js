@@ -73,7 +73,76 @@ function App() {
       </div>
       <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/super-app.jpg" alt="super snap" />
     </div>
-    <div className="kos"></div>
+    <div className="box-3">
+      <div className="box-main">
+        <div className="box-p">
+          <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/210x190-eco.png" alt="money" />
+        </div>
+        <div className="box-texts">
+          <h1>به صرفه</h1>
+          <p>سوپراپ اسنپ علاوه بر زمان در هزینه‌های شما نیز صرفه‌جویی می‌کند تا بهترین خدمات را با قیمتی منطقی دریافت کنید.</p>
+        </div>
+      </div>
+      <div className="box-main">
+        <div className="box-p">
+          <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/210x190-fast.png" alt="money" />
+        </div>
+        <div className="box-texts">
+          <h1>سریع</h1>
+          <p>قرار گرفتن خدمات مختلف در یک پلت‌فرم به صرفه‌جویی در زمان کمک می‌کند. سوپراپ اسنپ پاسخی سریع به نیازهای رومزه‌ی شماست.</p>
+        </div>
+      </div>
+      <div className="box-main">
+        <div className="box-p">
+          <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/210x190-easy.png" alt="money" />
+        </div>
+        <div className="box-texts">
+          <h1>آسان</h1>
+          <p>برای استفاده از هر کدام از خدمات سوپر‌اپ اسنپ کافی است وارد اپلیکیشن اسنپ شوید و روی آیکون مورد نظر بزنید.</p>
+        </div>
+      </div>
+    </div>
+    <div className="sabtnam">
+      <h1>در کمتر از ۱۰ دقیقه ثبت‌نام کنید و به ناوگان اسنپ بپیوندید.</h1>
+      <h2>بدون نیاز به مراجعه‌ی حضوری، از طریق این صفحه، تمام مراحل ثبت‌نام را اینترنتی انجام دهید</h2>
+      <input type="submit" value="ثبت‌نام رانندگان" />
+    </div>
+    <div className="video-page">
+      <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/jazb-ranande-cover.jpg" alt="video poster" />
+    </div>
+    <div className="footer-1">
+      <div className="foot">
+        <div className="foot-texts">
+        <h1>ساعت کاری دلخواه</h1>
+        <h3>فعالیت در ناوگان اسنپ محدودیت زمانی ندارد و می‌توانید فعالیت خود را در هر ساعت از شبانه‌روز و متناسب با برنامه‌ی زندگی‌تان شخصی‌سازی کنید.</h3>
+        </div>
+        <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-hour.png" alt="saat" />
+      </div>
+      <div className="foot">
+        <div className="foot-texts">
+        <h1> درآمد تضمینی + پاداش‌های ماهانه و هفتگی</h1>
+        <h3>با فعالیت در ناوگان اسنپ، علاوه بر کسب درآمد مستمر و امکان تسویه در لحظه می‌توانید با شرکت در طرح‌های تشویقی مختلف، درآمد خود را افزایش دهید.</h3>
+        </div>
+        <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-income.png" alt="saat" />
+      </div>
+      <div className="foot">
+        <div className="foot-texts">
+        <h1>کار‌فیکس</h1>
+        <h3>باشگاه رانندگان اسنپ به‌تازگی سرویس جدید «اسنپ کارفیکس» را برای سهولت دسترسی کاربران راننده به انواع خدمات خودرویی راه‌اندازی کرده است.</h3>
+        </div>
+        <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-carfix.png" alt="saat" />
+      </div>
+      <div className="foot">
+        <div className="foot-texts">
+        <h1>مزایا و خدمات باشگاه رانندگان</h1>
+        <h3>در باشگاه رانندگان اسنپ می‌توانید از تسهیلات و خدمات متنوعی از جمله خدمات خودرویی، خدمات درمانی و همچنین خدمات رفاهی و آموزشی بهره‌مند شوید.</h3>
+        </div>
+        <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/180x100-benefits.png" alt="saat" />
+      </div>
+    </div>
+    <div className="nothing">
+      
+    </div>
    </div>
    </>
   );

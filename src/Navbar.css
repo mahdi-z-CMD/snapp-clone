@@ -16,8 +16,8 @@
 }
 .sticky{
     position: fixed;
-    display: fixed;
     background-color: white;
+    z-index: 10;
 }
 .navbar ul{
     display: flex;

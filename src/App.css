@@ -186,7 +186,123 @@
   width: 50%;
   height: 100%;
 }
-.kos{
+.box-3{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+.box-main{
+  position: relative;
+  top: -15%;
+  margin-right: 40px;
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  border-radius: 20px;
+}
+.box-p{
+  display: flex;
+  justify-content: center;
+}
+.box-texts{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  padding: 10px;
+}
+.box-texts h1{
+  font-size: 120%;
+  color: #404040;
+}
+.box-texts p{
+  margin-top: 10px;
+  font-size: 80%;
+  color: rgba(64, 64, 64, 0.7);
+}
+.sabtnam{
+  display: flex;
   width: 100%;
-  height: 100vh;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sabtnam h1{
+  color: #3f3f3f;
+  letter-spacing: -.1px;
+}
+.sabtnam h2{
+  color: rgba(64, 64, 64, 0.8);
+  margin-top: 20px;
+  font-size: 110%;
+}
+.sabtnam input{
+  margin-top: 40px;
+  background-color: #00d170;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.video-page{
+  margin-top: 100px;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+}
+.video-page img{
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  width: 80%;
+  height: 100%;
+  margin-right: auto;
+}
+.footer-1{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 7%;
+}
+.foot{
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  margin-top: 80px;
+}
+.foot-texts{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.foot-texts h1{
+  color: #404040;
+  font-size: 100%;
+}
+.foot-texts h3{
+  color: rgba(64, 64, 64, 0.7);
+  font-size: 70%;
+  margin-top: 20px;
+  width: 70%;
+}
+.footer-1 img{
+  width: 77px;
+  height: 50px;
+  position: relative;
+  top: 24%;
+}
+.nothing{
+  width: 100%;
+  height: 50vh;
 }
